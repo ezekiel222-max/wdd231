@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+  #menu {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+
+  section {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    @media (min-width: 32.5rem) {
+  .logo {
+    width: 100px;  /* bigger logo for larger screens */
+  }
+}
+
+  }
+}
