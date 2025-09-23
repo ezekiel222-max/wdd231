@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Springfield Chamber</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="alternate icon" href="images/favicon.png" />
+  <!-- other head elements -->
+</head>
+
+
+  <!-- Facebook / Open Graph -->
+  <meta property="og:title" content="Springfield Chamber — Directory">
+  <meta property="og:description" content="Find local businesses and members of the Springfield Chamber of Commerce.">
+  <meta property="og:image" content="https://example.com/chamber/images/og-image.png">
+  <meta property="og:url" content="https://example.com/chamber/directory.html">
+  <meta property="og:type" content="website">
+
+  <!-- Normalize then custom styles -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/chamber.css">
+  <script src="js/directory.js" defer></script>
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">Springfield Chamber</a>
+
+    <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav">☰<span class="sr-only">Menu</span></button>
+
+    <nav id="main-nav" class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="directory.html" class="active">Directory</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="controls">
+    <h1>Member Directory</h1>
+    <div class="view-controls">
+      <label for="search">Search</label>
+      <input id="search" type="search" placeholder="Search company name or category" aria-label="Search members">
+
+      <div class="toggle">
+        <button id="grid-btn" aria-pressed="true" title="Grid view">Grid</button>
+        <button id="list-btn" aria-pressed="false" title="List view">List</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="members" class="members grid" aria-live="polite">
+    <!-- Member cards injected here by directory.js -->
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <address>
+      Springfield Chamber of Commerce<br>
+      123 Market St, Springfield<br>
+      Phone: <a href="tel:+2349079655857">+2349079655857</a>
+    </address>
+
+    <div class="dev-info">
+      <p>Developed by: Ezekiel Edem — WDD 231</p>
+      <p>&copy; <span id="year"></span> Springfield Chamber</p>
+      <p>Last modified: <span id="last-modified"></span></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

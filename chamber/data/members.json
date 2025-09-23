@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Member 1 - Ace Hardware",
+    "address": "123 Main St, Niger",
+    "phone": "+2348098978790",
+    "website": "https://www.acehardware.com",
+    "image": "images/member1.jpg",
+    "membership": "Gold",
+    "category": "Retail"
+  },
+  {
+    "name": "Member 2 - Springfield Bakery",
+    "address": "456 Baker Ave, Aiyetoro",
+    "phone": "+2347098987677",
+    "website": "https://www.springfieldbakery.com",
+    "image": "images/member2.jpg",
+    "membership": "Silver",
+    "category": "Food & Beverage"
+  },
+  {
+    "name": "Member 3 - Green Leaf Landscaping",
+    "address": "789 Garden Rd, Ogun state",
+    "phone": "+2349045677765",
+    "website": "https://www.greenleaflandscaping.com",
+    "image": "images/member3.jpg",
+    "membership": "Bronze",
+    "category": "Services"
+  },
+  {
+    "name": "Member 4 - Healthy Life Gym",
+    "address": "321 Fitness Blvd, Akwa-ibom",
+    "phone": "+2349134456567",
+    "website": "https://www.healthylifegym.com",
+    "image": "images/member4.jpg",
+    "membership": "Gold",
+    "category": "Health & Wellness"
+  },
+  {
+    "name": "Member 5 - Springfield Tech Solutions",
+    "address": "654 computer village,Allen Avenue",
+    "phone": "+2347098778678",
+    "website": "https://www.springfieldtech.com",
+    "image": "images/member5.jpg",
+    "membership": "Silver",
+    "category": "Technology"
+  },
+  {
+    "name": "Member 6 - Sunrise Cafe",
+    "address": "222 Coffee Ave, Springfield",
+    "phone": "+2348080564534",
+    "website": "https://www.sunrisecafe.com",
+    "image": "images/member6.jpg",
+    "membership": "Bronze",
+    "category": "Food & Beverage"
+  },
+  {
+    "name": "Member 7 - Downtown Bookstore",
+    "address": "100 block,westfield,ikeja",
+    "phone": "+2349079655857",
+    "website": "https://www.downtownbooks.com",
+    "image": "images/member7.jpg",
+    "membership": "Gold",
+    "category": "Retail"
+  }
+]
