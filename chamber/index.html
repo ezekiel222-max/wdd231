@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Springfield Chamber | Home</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="alternate icon" href="images/favicon.png" />
+  
+  <!-- Normalize then custom styles -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/chamber.css">
+  
+  <!-- Main JavaScript -->
+  <script src="js/home.js" defer></script>
+</head>
+<body>
+  <!-- ========== Header ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Springfield Chamber</a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav">
+        ☰<span class="sr-only">Menu</span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== Main ========== -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Springfield Chamber</h1>
+        <p>Supporting local businesses and community growth.</p>
+        <a href="join.html" class="cta-btn">Join Now</a>
+      </div>
+    </section>
+
+    <!-- Current Events Section -->
+    <section class="container events">
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li><strong>Business Mixer:</strong> October 5th at 6PM, Community Hall</li>
+        <li><strong>Farmers Market:</strong> Every Saturday, Main Street</li>
+        <li><strong>Holiday Parade:</strong> December 12th, Downtown Springfield</li>
+      </ul>
+    </section>
+
+    <!-- Weather Section -->
+    <section class="container weather">
+      <h2>Current Weather</h2>
+      <div id="weather-card" class="weather-card">
+        <!-- Weather injected dynamically -->
+      </div>
+    </section>
+
+    <!-- Spotlights Section -->
+    <section class="spotlights container">
+      <h2>Member Spotlights</h2>
+      <div id="spotlight-cards" class="spotlight-cards">
+        <!-- Spotlight cards injected dynamically -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <address>
+        Springfield Chamber of Commerce<br>
+        123 Market St, Springfield<br>
+        Phone: <a href="tel:+2349079655857">+2349079655857</a>
+      </address>
+
+      <div class="dev-info">
+        <p>Developed by: Ezekiel Edem — WDD 231</p>
+        <p>&copy; <span id="year"></span> Springfield Chamber</p>
+        <p>Last modified: <span id="last-modified"></span></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
