@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "Manchester United",
+    "logo": "images/manutd.png",
+    "league": "Premier League",
+    "country": "England",
+    "founded": 1878,
+    "stadium": "Old Trafford",
+    "manager": "Ruben Amorim",
+    "description": "One of the most successful football clubs in England with a rich history,But lately they've been performing bad."
+  },
+  {
+    "id": 2,
+    "name": "Real Madrid",
+    "logo": "images/realmadrid.png",
+    "league": "La Liga",
+    "country": "Spain",
+    "founded": 1902,
+    "stadium": "Santiago Bernabéu",
+    "manager": "Xabi Alonso",
+    "description": "A record-breaking European club known for its Galácticos and Champions League titles."
+  },
+  {
+    "id": 3,
+    "name": "Barcelona",
+    "logo": "images/barcelona.png",
+    "league": "La Liga",
+    "country": "Spain",
+    "founded": 1899,
+    "stadium": "Spotify Camp Nou",
+    "manager": "Hansi Flick",
+    "description": "A Catalan powerhouse famous for tiki-taka football and La Masia academy."
+  },
+  {
+    "id": 4,
+    "name": "Liverpool",
+    "logo": "images/liverpool.png",
+    "league": "Premier League",
+    "country": "England",
+    "founded": 1892,
+    "stadium": "Anfield",
+    "manager": "Arne Slot",
+    "description": "Known for their passionate fanbase and 'You'll Never Walk Alone' anthem."
+  },
+  {
+    "id": 5,
+    "name": "Bayern Munich",
+    "logo": "images/bayern.png",
+    "league": "Bundesliga",
+    "country": "Germany",
+    "founded": 1900,
+    "stadium": "Allianz Arena",
+    "manager": "Vincent Kompany",
+    "description": "Germany’s dominant club with a history of European success."
+  },
+  {
+    "id": 6,
+    "name": "Paris Saint-Germain",
+    "logo": "images/psg.png",
+    "league": "Ligue 1",
+    "country": "France",
+    "founded": 1970,
+    "stadium": "Parc des Princes",
+    "manager": "Luis Enrique",
+    "description": "France’s leading club, known for its star-studded lineup and attacking flair."
+  },
+  {
+    "id": 7,
+    "name": "Juventus",
+    "logo": "images/juventus.png",
+    "league": "Serie A",
+    "country": "Italy",
+    "founded": 1897,
+    "stadium": "Allianz Stadium",
+    "manager": "Thiago Motta",
+    "description": "Italy’s most successful club, with a tradition of excellence and defense."
+  },
+  {
+    "id": 8,
+    "name": "Arsenal",
+    "logo": "images/arsenal.png",
+    "league": "Premier League",
+    "country": "England",
+    "founded": 1886,
+    "stadium": "Emirates Stadium",
+    "manager": "Mikel Arteta",
+    "description": "Known for attacking football and one of England’s most historic clubs."
+  },
+  {
+    "id": 9,
+    "name": "Inter Milan",
+    "logo": "images/inter.png",
+    "league": "Serie A",
+    "country": "Italy",
+    "founded": 1908,
+    "stadium": "San Siro",
+    "manager": "Simone Inzaghi",
+    "description": "A top Italian side with strong domestic and European achievements."
+  },
+  {
+    "id": 10,
+    "name": "AC Milan",
+    "logo": "images/acmilan.png",
+    "league": "Serie A",
+    "country": "Italy",
+    "founded": 1899,
+    "stadium": "San Siro",
+    "manager": "Paulo Fonseca",
+    "description": "A historic club known for its Champions League pedigree."
+  },
+  {
+    "id": 11,
+    "name": "Chelsea",
+    "logo": "images/chelsea.png",
+    "league": "Premier League",
+    "country": "England",
+    "founded": 1905,
+    "stadium": "Stamford Bridge",
+    "manager": "Enzo Maresca",
+    "description": "A London club with European success and a modern football legacy."
+  },
+  {
+    "id": 12,
+    "name": "Atletico Madrid",
+    "logo": "images/atletico.png",
+    "league": "La Liga",
+    "country": "Spain",
+    "founded": 1903,
+    "stadium": "Civitas Metropolitano",
+    "manager": "Diego Simeone",
+    "description": "Known for their resilience, defense, and passionate fans."
+  },
+  {
+    "id": 13,
+    "name": "Borussia Dortmund",
+    "logo": "images/dortmund.png",
+    "league": "Bundesliga",
+    "country": "Germany",
+    "founded": 1909,
+    "stadium": "Signal Iduna Park",
+    "manager": "Edin Terzic",
+    "description": "A German club famous for youth development and a yellow wall of fans."
+  },
+  {
+    "id": 14,
+    "name": "Ajax",
+    "logo": "images/ajax.png",
+    "league": "Eredivisie",
+    "country": "Netherlands",
+    "founded": 1900,
+    "stadium": "Johan Cruyff Arena",
+    "manager": "Francesco Farioli",
+    "description": "A Dutch club renowned for its academy and attacking philosophy."
+  },
+  {
+    "id": 15,
+    "name": "Napoli",
+    "logo": "images/napoli.png",
+    "league": "Serie A",
+    "country": "Italy",
+    "founded": 1926,
+    "stadium": "Stadio Diego Armando Maradona",
+    "manager": "Antonio Conte",
+    "description": "The pride of southern Italy with passionate fans and recent Serie A success."
+  }
+]

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Football World Hub. Send your message or subscribe for updates.">
+  <meta name="author" content="Ezekiel Edem">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/football.css">
+  <script type="module" src="scripts/form.js" defer></script>
+  <title>Football World Hub | Contact</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>⚽ Football World Hub</h1>
+      <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="teams.html">Teams</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact Us</h2>
+    <form action="form-submission.html" method="get" class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="team">Favorite Team:</label>
+      <select id="team" name="team">
+        <option value="">--Select a team--</option>
+        <option>Arsenal</option>
+        <option>Manchester United</option>
+        <option>Chelsea</option>
+        <option>Barcelona</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <label>
+        <input type="checkbox" name="subscribe" value="yes">
+        Please subscribe me to the monthly newsletter
+      </label>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Football World Hub</p>
+    <a href="attributions.html">Attributions</a> |
+    <a href="https://youtu.be/your-demo-video-link">Project Demo Video</a>
+  </footer>
+</body>
+</html>
